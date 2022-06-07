@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bachground"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/ivPhotoSignUp"
+        android:layout_width="161dp"
+        android:layout_height="85dp"
+        android:onClick="selectPhoto"
+        app:layout_constraintBottom_toTopOf="@+id/etUsernameSIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignUp"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etFirstnameSIGNUP"
+        android:layout_width="141dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="    F.Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etUsernameSIGNUP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivPhotoSignUp"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <EditText
+        android:id="@+id/etLastnameSIGNUP"
+        android:layout_width="134dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="    L.Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etUsernameSIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toEndOf="@+id/etFirstnameSIGNUP"
+        app:layout_constraintTop_toBottomOf="@+id/ivPhotoSignUp"
+        app:layout_constraintVertical_bias="0.333"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/etUsernameSIGNUP"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Email Adress..."
+        android:inputType="textEmailAddress"
+        android:textColorHint="#757575"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordSIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignUp"
+        app:layout_constraintVertical_bias="0.816"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/etPasswordSIGNUP"
+        android:layout_width="296dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etPhoneNumSIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/etPhoneNumSIGNUP"
+        android:layout_width="296dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="92dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Phone Number..."
+        android:inputType="phone"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignUpSIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnSignUpSIGNUP"
+        android:layout_width="137dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/buttons"
+        android:onClick="signup"
+        android:text="Join Now"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivBrush"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creat your acount :"
+        android:textColor="@color/buttons"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBrush"
+        android:layout_width="99dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/brushs" />
+
+    <ImageButton
+        android:id="@+id/ivGoToMainSignUp"
+        android:layout_width="35dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/bachground"
+        android:backgroundTint="@color/bachground"
+        android:onClick="backToMain"
+        android:tint="@color/bachground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_dialog"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

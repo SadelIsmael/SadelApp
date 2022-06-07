@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808504112530",
+    "project_id": "sadelapp-9ef5e",
+    "storage_bucket": "sadelapp-9ef5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808504112530:android:454c16cbb8cd284a43bd4b",
+        "android_client_info": {
+          "package_name": "com.example.sadelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808504112530-e9b0fjal8u31irl1tqlg0mvo6ujn68gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeayk6DT3dHZX2teP5kYD42citunzb7Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808504112530-e9b0fjal8u31irl1tqlg0mvo6ujn68gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
