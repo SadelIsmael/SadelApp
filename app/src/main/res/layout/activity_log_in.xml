@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage"
+    tools:context=".LogInActivity">
+
+    <ImageButton
+        android:id="@+id/ivGoToMainLogIn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/bachground"
+        android:backgroundTint="@color/bachground"
+        android:onClick="goToMainPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_dialog"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etPasswordLOGIN"
+        android:layout_width="219dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogInLOGIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUsernameLOGIN" />
+
+    <Button
+        android:id="@+id/btnLogInLOGIN"
+        android:layout_width="135dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/buttons"
+        android:onClick="logIN"
+        android:text="Log In "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordLOGIN" />
+
+    <EditText
+        android:id="@+id/etUsernameLOGIN"
+        android:layout_width="219dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Email Adress..."
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordLOGIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

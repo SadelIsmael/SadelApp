@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_add_product.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_all_product.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_all_products.xml" value="0.17282051282051283" />
+        <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
         <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_main.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_product_details.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/activity_sign_up.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/sadel/AndroidStudioProjects/SadelApp/app/src/main/res/layout/row.xml" value="0.16145833333333334" />
       </map>
     </option>
   </component>
